@@ -103,8 +103,22 @@ nav li {
     list-style: none;
 }
 
-.partner-section
+.partner-img {
+    width: 50%;
+}
 
+.partner-txt {
+    width: 50%;
+}
+
+.partner-img img {
+    max-width: 100%;
+}
+#partner-button {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
 .sponsor-section {
     height: 400px;
     background-color: chartreuse;
