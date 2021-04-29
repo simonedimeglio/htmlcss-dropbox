@@ -82,10 +82,28 @@ nav li {
 .main-container {
     max-width: 1000px;
     height: 1200px;
-    background-color: coral;
     margin: 0 auto;
     border: 4px solid black;
 }
+
+.pricing h2 {
+    text-align: center;
+}
+
+.pricing-type-float {
+    width: calc(100% / 3);
+    background-color: white;
+}
+
+.pricing-type {
+    border: 1px solid black;
+}
+
+.pricing-type-float ul {
+    list-style: none;
+}
+
+.partner-section
 
 .sponsor-section {
     height: 400px;
