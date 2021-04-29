@@ -6,6 +6,10 @@
 }
 /*END RESET*/
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* utilities */
 .clearfix::after {
     content: "";
@@ -24,12 +28,22 @@
 .button {
     color: white;
     background-color: blue;
+    text-align: center;
+}
+
+.right-nav .button {
+    width: 60px;
 }
 /* end utilities */
 
 /* HEADER */
+/* navbar */
 nav {
-    padding: 20px;
+    line-height: 25px;
+    height: 25px;
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 15px;
 }
 
 .left-nav {
@@ -46,27 +60,44 @@ nav ul {
 
 nav li {
     display: inline-block;
-    line-height: 25px;
+    margin-left: 25px;
 }
+/* end navbar */
 
-
+/* jumbo */
+#jumbotron-background {
+    background-color: rgba(180,208,231,255);
+    height: 450px;
+}
 .jumbotron {
     height: 500px;
-    background-color: rgb(79, 162, 211);
 }
 
 .jumbotron-container {
-    max-width: 1200px;
+    max-width: 1000px;
     height: 100%;
     margin: 0 auto;
 }
 
 #jumbo-title {
-    font-size: 50px;
+    font-size: 40px;
+    padding: 30px 0;
 }
 
 .jumbo-txt {
     width: 40%;
+}
+.jumbo-txt p {
+    font-size: 12px;
+    padding: 0 170px 10px 0;
+}
+
+.jumbo-txt .button {
+    width: 170px;
+    height: 30px;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
 .jumbo-img {
@@ -76,6 +107,11 @@ nav li {
 .jumbo-img img {
     max-width: 100%;
 }
+
+.button {
+
+}
+/* end jumbo */
 /* END HEADER */
 
 /* MAIN */
@@ -87,6 +123,7 @@ nav li {
 
 .pricing {
     border: 4px solid red;
+    margin-top: 130px;
 }
 .pricing h2 {
     text-align: center;
