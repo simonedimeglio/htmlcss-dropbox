@@ -85,6 +85,9 @@ nav li {
     border: 4px solid black;
 }
 
+.pricing {
+    border: 4px solid red;
+}
 .pricing h2 {
     text-align: center;
 }
@@ -100,6 +103,10 @@ nav li {
 
 .pricing-type-float ul {
     list-style: none;
+}
+
+.partner-section {
+    border: 4px solid green;
 }
 
 .partner-img {
@@ -118,11 +125,38 @@ nav li {
     background-color: white;
     border: 1px solid black;
 }
-.sponsor-section {
-    height: 400px;
-    background-color: chartreuse;
-    border: 4px solid black;
+
+
 }
+.functionality-box {
+    width: 100%;
+    border: 4px solid orange;
+}
+.fun {
+    width: calc(100% / 3);
+    padding: 50px;
+    height: 500px;
+}
+.fun img {
+    max-width: 100%;
+}
+
+.sponsor-section {
+    border: 4px solid red;
+}
+
+.sponsor-left, .sponsor-center, .sponsor-right {
+    width: calc(100% / 3);
+    height: 200px;
+    border: 1px solid black;
+}
+
+.square-sponsor {
+    width: 50%;
+    height: 50%;
+    border: 1px solid blue;
+}
+
 
 .free-trial-container {
     height: 200px;
@@ -133,20 +167,22 @@ nav li {
 .free-trial {
     max-width: 1000px; /*same as main-container */
     height: 100%;
-    background-color: coral;
     margin: 0 auto;
     border: 4px solid black;
 }
-.functionality-box {
-    width: 100%;
+
+.free-trial-text {
+    width: 67%;
+    color: purple;
 }
-.fun {
-    width: calc(100% / 3);
-    padding: 50px;
-    height: 500px;
+
+.free-trial-button {
+    width: 33%;
+    background-color: white;
 }
-.fun img {
-    max-width: 100%;
+
+.qa-row {
+    border-top: 1px solid grey;
 }
 
 /* END MAIN */
