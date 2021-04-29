@@ -53,3 +53,48 @@ nav {
     margin: 0 auto;
     border: 4px solid black;
 }
+/* END HEADER */
+
+/* MAIN */
+.main-container {
+    max-width: 1000px;
+    height: 1200px;
+    background-color: coral;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+.sponsor-section {
+    height: 400px;
+    background-color: chartreuse;
+    border: 4px solid black;
+}
+
+.free-trial-container {
+    height: 200px;
+    background-color: cornflowerblue;
+    border: 4px solid black;
+}
+
+.free-trial {
+    max-width: 1000px; /*same as main-container */
+    height: 100%;
+    background-color: coral;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+/* END MAIN */
+
+/* FOOTER */
+footer {
+    height: 400px;
+    background-color: black;
+}
+
+.footer-container {
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 4px solid #fff;
+}
+/* END FOOTER */
