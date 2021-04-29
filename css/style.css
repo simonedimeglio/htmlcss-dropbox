@@ -20,38 +20,61 @@
 .fr {
     float: right;
 }
+
+.button {
+    color: white;
+    background-color: blue;
+}
 /* end utilities */
 
 /* HEADER */
 nav {
-    height: 100px;
-    border: 1px solid black;
-    background-color: aqua;
+    padding: 20px;
 }
 
 .left-nav {
-    width: 300px;
-    height: 100%;;
-    border: 4px solid black;
+    height: 100%;
 }
 
 .right-nav {
-    width: 300px;
     height: 100%;
-    border: 4px solid black;
 }
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 25px;
+}
+
 
 .jumbotron {
     height: 500px;
-    border: 4px solid black;
-    background-color: blue;
+    background-color: rgb(79, 162, 211);
 }
 
 .jumbotron-container {
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
-    border: 4px solid black;
+}
+
+#jumbo-title {
+    font-size: 50px;
+}
+
+.jumbo-txt {
+    width: 40%;
+}
+
+.jumbo-img {
+    width: 60%;
+}
+
+.jumbo-img img {
+    max-width: 100%;
 }
 /* END HEADER */
 
