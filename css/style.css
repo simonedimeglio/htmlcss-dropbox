@@ -1,14 +1,16 @@
-/*RESET*/
+/*reset*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/*END RESET*/
+/*end reset*/
 
+/* font family */
 body {
     font-family: 'Open Sans', sans-serif;
 }
+/* end font family */
 
 /* utilities */
 .clearfix::after {
@@ -30,9 +32,9 @@ body {
     background-color: rgba(0,97,255,255);
     text-align: center;
 }
-
-.right-nav .button {
-    width: 60px;
+.small-hr {
+    width: 40px;
+    color: lightgray;
 }
 /* end utilities */
 
@@ -61,6 +63,10 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 25px;
+}
+
+.right-nav .button {
+    width: 60px;
 }
 /* end navbar */
 
@@ -126,6 +132,11 @@ nav li {
 .pricing {
     margin-top: 130px;
 }
+
+label{
+    margin-right: 20px;
+}
+
 .pricing h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -139,7 +150,7 @@ nav li {
     border: 1px solid lightgray;
     width: calc(100% / 3 - 20px);
     background-color: white;
-    height: 650px;
+    height: 670px;
 }
 
 #middle-pricing {
@@ -188,15 +199,27 @@ nav li {
     height: 80px;
 }
 
-.small-hr {
-    width: 40px;
-    color: lightgray;
+.try-or-buy .button {
+    height: 33px;
+    line-height: 33px;
+    margin-bottom: 15px;
+}
+
+.try-or-buy .small-hr{
+    margin: 15px 0;
+}
+
+.hilights {
+    padding-top: 20px;
 }
 
 .pricing-type-float ul {
     list-style: none;
     font-size: 10px;
-    line-height: 22px;
+}
+
+.pricing-type-float li {
+    margin-top: 10px;
 }
 
 .pricing-type-center {
@@ -290,7 +313,7 @@ nav li {
 }
 /* end Dropbox's functionality box */
 
-/* SPONSOR SECTION */
+/* sponsor section */
 .sponsor-left, .sponsor-center, .sponsor-right {
     width: calc(100% / 3);
     height: 400px;
@@ -371,11 +394,9 @@ nav li {
     margin-left: 50px;
     font-size: 15px;
 }
+/* end sponsor section*/
 
-
-/* END SPONSOR SECTION */
-
-/* free trial section */
+/* free trial */
 .free-trial-container {
     height: 200px;
     background-color: #b4d0e7;
@@ -410,7 +431,7 @@ nav li {
 }
 /* end free trial section */
 
-/* q&a section */
+/* q&a */
 .qa-section {
     margin: 100px 0;
     position: relative;
@@ -430,7 +451,7 @@ nav li {
     position: absolute;
     right: 0;
 }
-/* end q&a */
+/* end q&a section*/
 /* END MAIN */
 
 /* FOOTER */
