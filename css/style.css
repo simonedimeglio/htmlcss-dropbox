@@ -118,33 +118,96 @@ nav li {
 
 /* MAIN */
 .main-container {
-    max-width: 960px;
+    max-width: 850px;
     margin: 0 auto;
 }
 
 .pricing {
-    border: 4px solid red;
     margin-top: 130px;
 }
 .pricing h2 {
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-type-container {
+    margin-top: 30px;
 }
 
 .pricing-type-float {
-    width: calc(100% / 3);
+    border: 1px solid lightgray;
+    width: calc(100% / 3 - 20px);
     background-color: white;
+    height: 650px;
 }
 
-.pricing-type {
+#middle-pricing {
+    margin: 0 30px;
+}
+
+.pricing-type-center {
     border: 1px solid black;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.pricing-header {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 30px;
+    line-height: 30px;
+}
+
+.pricing-header h6 {
+    display: inline;
+}
+
+.small-logo {
+    display: inline;
+    height: 10px;
+}
+
+#check {
+    color: blue;
+}
+
+.pricing-content {
+    padding: 30px;
+}
+
+.pricing-title {
+    height: 100px;
+}
+
+.pricing-title p {
+    color: gray;
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.pricing-specs {
+    height: 170px;
+}
+
+.try-or-buy {
+    height: 80px;
+}
+
+.small-hr {
+    width: 40px;
+    color: lightgray;
 }
 
 .pricing-type-float ul {
     list-style: none;
+    font-size: 10px;
+    line-height: 22px;
 }
+
 
 .partner-section {
     border: 4px solid green;
+    margin-top: 400px;
 }
 
 .partner-img {
@@ -264,7 +327,7 @@ nav li {
 }
 
 .free-trial {
-    max-width: 960px; /*same as main-container */
+    max-width: 850px; /*same as main-container */
     height: 100%;
     margin: 0 auto;
 }
@@ -305,7 +368,7 @@ footer {
 
 .footer-container {
     height: 100%;
-    max-width: 960px; /* same as main container */
+    max-width: 850px; /* same as main container */
     margin: 0 auto;
     border: 4px solid #fff;
 }
