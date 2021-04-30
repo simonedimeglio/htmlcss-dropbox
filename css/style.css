@@ -122,6 +122,7 @@ nav li {
     margin: 0 auto;
 }
 
+/* pricing */
 .pricing {
     margin-top: 130px;
 }
@@ -143,12 +144,6 @@ nav li {
 
 #middle-pricing {
     margin: 0 30px;
-}
-
-.pricing-type-center {
-    border: 1px solid black;
-    height: 200px;
-    margin-top: 20px;
 }
 
 .pricing-header {
@@ -204,10 +199,39 @@ nav li {
     line-height: 22px;
 }
 
+.pricing-type-center {
+    border: 1px solid lightgray;
+    height: 165px;
+    margin-top: 20px;
+}
 
+.enterprise-left {
+    width: 70%;
+    padding: 20px 30px;
+    line-height: 35px;
+}
+
+.enterprise-left p, .enterprise-right .button{
+    font-size: 10px;
+}
+
+.enterprise-right .button {
+    margin: 28px auto;
+    width: 166px;
+    font-size: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.enterprise-right {
+    width: 30%;
+    height: 100%;
+}
+/* end pricing */
+
+/* find a partner section */
 .partner-section {
-    border: 4px solid green;
-    margin-top: 400px;
+    margin-top: 20px;
 }
 
 .partner-img {
