@@ -371,6 +371,7 @@ nav li {
 }
 /* END SPONSOR SECTION */
 
+/* free trial section */
 .free-trial-container {
     height: 200px;
     background-color: #b4d0e7;
@@ -403,29 +404,49 @@ nav li {
     position: absolute;
     right: 70px;
 }
+/* end free trial section */
 
-.qa-row {
-    border-top: 1px solid grey;
+/* q&a section */
+.qa-section {
+    margin: 100px 0;
+    position: relative;
 }
 
+.qa-row {
+    border-top: 1px solid lightgrey;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.qa-row:last-child {
+    border-bottom: 1px solid lightgrey;
+}
+
+.qa-row .small-logo {
+    position: absolute;
+    right: 0;
+}
+/* end q&a */
 /* END MAIN */
 
 /* FOOTER */
 footer {
     height: 400px;
     background-color: black;
+    font-size: 10px;
+    padding-top: 80px;
 }
 
 .footer-container {
     height: 100%;
     max-width: 850px; /* same as main container */
     margin: 0 auto;
-    border: 4px solid #fff;
 }
 
 .footer-section {
     width: calc(100% / 5);
     color: white;
+    line-height: 25px;
 }
 
 .footer-section ul {
@@ -434,5 +455,18 @@ footer {
 
 .footer-section ul li:first-child {
     font-weight : bold;
+    margin-bottom: 5px;
+}
+
+.footer-section .small-hr {
+    margin: 70px 0 30px 0;
+    width: 90px;
+}
+
+.footer-section .small-logo {
+    filter: invert(100%);
+}
+#dropbox ul li:last-child {
+    color: grey;
 }
 /* END FOOTER */
