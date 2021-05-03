@@ -1,16 +1,12 @@
-/*reset*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/*end reset*/
 
-/* font family */
 body {
     font-family: 'Open Sans', sans-serif;
 }
-/* end font family */
 
 /* utilities */
 .clearfix::after {
@@ -27,18 +23,23 @@ body {
     float: right;
 }
 
+.a-reset {
+    text-decoration: none;
+}
+
 .button {
     color: white;
     background-color: rgba(0,97,255,255);
     text-align: center;
 }
+
 .small-hr {
     width: 40px;
     color: lightgray;
 }
 
-.a-reset {
-    text-decoration: none;
+.check {
+    color: blue;
 }
 /* end utilities */
 
@@ -50,14 +51,6 @@ nav {
     margin: 20px 0;
     padding: 0 20px;
     font-size: 15px;
-}
-
-.left-nav {
-    height: 100%;
-}
-
-.right-nav {
-    height: 100%;
 }
 
 nav ul {
@@ -77,20 +70,16 @@ nav li {
 /* jumbo */
 #jumbotron-background {
     background-color: rgba(180,208,231,255);
-    height: 450px;
-}
-.jumbotron {
-    height: 500px;
+    height: 473px;
 }
 
 .jumbotron-container {
-    max-width: 1000px;
-    height: 100%;
+    max-width: 1040px;
     margin: 0 auto;
 }
 
 #jumbo-title {
-    font-size: 40px;
+    font-size: 45px;
     padding: 30px 0;
 }
 
@@ -105,7 +94,7 @@ nav li {
 
 .jumbo-txt p {
     font-size: 12px;
-    padding: 0 170px 10px 0;
+    padding: 0 177px 10px 0;
     margin-bottom: 20px;
 }
 
@@ -114,6 +103,7 @@ nav li {
     height: 30px;
     padding: 5px;
     font-size: 12px;
+    margin-bottom: 5px;
 }
 
 .jumbo-img {
@@ -127,7 +117,7 @@ nav li {
 /* END HEADER */
 
 /* MAIN */
-.main-container {
+.main-container-centered {
     max-width: 850px;
     margin: 0 auto;
 }
@@ -185,10 +175,6 @@ label{
 .small-logo {
     display: inline;
     height: 10px;
-}
-
-#check {
-    color: blue;
 }
 
 .pricing-content {
@@ -262,7 +248,6 @@ label{
 
 .enterprise-right {
     width: 30%;
-    height: 100%;
 }
 /* end pricing */
 
@@ -281,7 +266,7 @@ label{
 }
 
 .partner-txt p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .partner-img img {
@@ -297,36 +282,32 @@ label{
 }
 /* end partner section */
 
-/* Dropbox's functionality box */
-.functionality-box {
-    width: 100%;
-}
-
-.functionality-box h2 {
+/* Dropbox's functionality container */
+.functionality-container h2 {
     text-align: center;
 }
 
-.fun {
+.functionality-box {
     width: calc(100% / 3);
     padding: 50px;
     height: 400px;
 }
 
-.fun img {
+.functionality-box img {
     max-width: 100%;
 }
 
-.fun h3 {
+.functionality-box h3 {
     font-size: 16px;
 }
 
-.fun p {
-    font-size: 11px;
+.functionality-box p {
+    font-size: 12px;
     margin-top: 10px;
 }
 
 .our-users {
-    margin: 60px 0 30px 0; 
+    margin: 100px 0 40px 0; 
     padding: 0 50px;  
 }
 
@@ -423,8 +404,7 @@ label{
 }
 
 .free-trial {
-    max-width: 850px; /*same as main-container */
-    height: 100%;
+    max-width: 850px; /*same as main-container-centered */
     margin: 0 auto;
 }
 
@@ -461,8 +441,8 @@ label{
 .qa-row {
     border-top: 1px solid lightgrey;
     list-style: none;
-    padding: 10px 0;
-    font-size: 16px;
+    padding: 15px 0;
+    font-size: 12px;
 }
 
 .qa-row:last-child {
@@ -490,8 +470,7 @@ footer a {
 }
 
 .footer-container {
-    height: 100%;
-    max-width: 850px; /* same as main container */
+    max-width: 850px; /* same as main-container-centered */
     margin: 0 auto;
 }
 
@@ -516,8 +495,5 @@ footer a {
 
 .footer-section .small-logo {
     filter: invert(100%);
-}
-#dropbox ul li:last-child {
-    color: grey;
 }
 /* END FOOTER */
