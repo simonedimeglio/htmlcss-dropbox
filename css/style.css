@@ -154,7 +154,7 @@ label{
     border: 1px solid lightgray;
     width: calc(100% / 3 - 20px);
     background-color: white;
-    height: 670px;
+    height: 700px;
 }
 
 .logo-div {
@@ -238,7 +238,7 @@ label{
 
 .pricing-type-center {
     border: 1px solid lightgray;
-    height: 165px;
+    height: 180px;
     margin-top: 20px;
 }
 
@@ -345,20 +345,17 @@ label{
 .square-sponsor {
     width: 50%;
     height: 50%;
-    text-align: center;
     position: relative;
 }
 
 .sponsor-logo {
-    max-width: 40%;
-    max-height: 30%;
+    max-width: 50%;
+    max-height: 50%;
     filter: invert(100%);
     position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 
 .sponsor-center {
@@ -438,7 +435,6 @@ label{
     padding: 50px 0;
 }
 
-
 .free-trial-button {
     width: 33%;
     position: relative;
@@ -486,6 +482,11 @@ footer {
     background-color: black;
     font-size: 10px;
     padding-top: 80px;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
 
 .footer-container {
@@ -496,7 +497,6 @@ footer {
 
 .footer-section {
     width: calc(100% / 5);
-    color: white;
     line-height: 25px;
 }
 
